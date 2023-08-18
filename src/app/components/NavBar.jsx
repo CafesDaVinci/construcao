@@ -21,7 +21,7 @@ export default function NavBar() {
     return (
         <div>
             <nav className="absolute top-5 flex justify-center items-center h-36 text-primary z-10 drop-shadow-dark1 font-bold w-screen">
-                <div className="flex items-center justify-center space-x-5">
+                <div className="w-44 flex items-center justify-center space-x-5">
                     <CustonLink
                         link="/"
                         title="Início"
@@ -36,7 +36,7 @@ export default function NavBar() {
                         className="rounded-full hidden md:block mx-20 drop-shadow-drop1"
                     />
                 </Link>
-                <div className="flex gap-5 w-40">
+                <div className="flex gap-5 w-44">
                     <Link href="#"
                     >
                         <FontAwesomeIcon icon={faInstagram} className="h-5" />

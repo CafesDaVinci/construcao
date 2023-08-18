@@ -19,6 +19,7 @@ module.exports = {
       },
       fontFamily: {
         dancing: 'var(--font-dancing)',  
+        bebas: 'var(--font-bebas)',  
       },
       
     },

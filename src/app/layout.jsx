@@ -1,10 +1,11 @@
 import './globals.css'
 import NavBar from './components/NavBar'
 import './globals.css'
-import { Dancing_Script, Montserrat, } from 'next/font/google'
+import { Dancing_Script, Montserrat,Bebas_Neue } from 'next/font/google'
 
 const montserrat = Montserrat({ subsets: ['latin'], variable: '--font-mont' })
 const dancing_script = Dancing_Script({ subsets: ['latin'], weight: '700', variable: '--font-dancing' })
+const bebas_neue = Bebas_Neue({ subsets: ['latin'], weight: '400', variable: '--font-bebas' })
 
 
 export const metadata = {
@@ -14,7 +15,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <body className={`${montserrat.variable} ${dancing_script.variable}  min-h-screen bg-light`}>
+    <body className={`${montserrat.variable} ${dancing_script.variable} ${bebas_neue.variable} font-bebas min-h-screen bg-primary`}>
 
       <NavBar />
       {children}
