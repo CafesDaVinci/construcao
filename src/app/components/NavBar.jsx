@@ -1,16 +1,18 @@
+"use client"
 import Image from "next/image";
 import logo from "../../../public/logo.png"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Link from "next/link";
 import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { motion } from "framer-motion";
 
 
 
-const CustonLink = ({ title, link, icon }) => {
+const CustonLink = ({ title, link, }) => {
     return (
         <Link href={link} className="flex text-primary flex-col justify-center items-center hover:text-light transition-all duration-300">
             {title}
-            <FontAwesomeIcon icon={icon} className="h-5" />
+
         </Link>
     )
 }
@@ -35,17 +37,15 @@ export default function NavBar() {
                     />
                 </Link>
                 <div className="flex gap-5 w-40">
-                    <CustonLink
-                        link='#'
+                    <Link href="#"
+                    >
+                        <FontAwesomeIcon icon={faInstagram} className="h-5" />
+                    </Link>
+                    <Link href="#">
+                        <FontAwesomeIcon icon={faFacebook} className="h-5" />
+                    </Link>
 
-                        icon={faInstagram}
 
-                    />
-                    <CustonLink
-                        link='#'
-
-                        icon={faFacebook}
-                    />
                 </div>
             </nav>
         </div>
