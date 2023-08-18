@@ -1,10 +1,10 @@
 import './globals.css'
 import NavBar from './components/NavBar'
 import './globals.css'
-import { Lobster, Montserrat, } from 'next/font/google'
+import { Dancing_Script, Montserrat, } from 'next/font/google'
 
 const montserrat = Montserrat({ subsets: ['latin'], variable: '--font-mont' })
-const lobster = Lobster({ subsets: ['latin'], weight: '400', variable: '--font-lob' })
+const dancing_script = Dancing_Script({ subsets: ['latin'], weight: '700', variable: '--font-dancing' })
 
 
 export const metadata = {
@@ -14,7 +14,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <body className={`${montserrat.variable} ${lobster.variable}  min-h-screen bg-light`}>
+    <body className={`${montserrat.variable} ${dancing_script.variable}  min-h-screen bg-light`}>
 
       <NavBar />
       {children}

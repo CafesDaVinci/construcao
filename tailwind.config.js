@@ -8,14 +8,17 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        primary:"#ffffff",
+        primary:"#fffbf2",
         secondary:"#c7a17a",
       },
       dropShadow: {
-        dark1: '2px 2px 2px black',
+        dark1: '2px 2px 0px black',
         branco1: '1px 1px 0px white',
         dark2: '1px 2px 2px #1A1A1A',
         drop1: '0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5)',
+      },
+      fontFamily: {
+        dancing: 'var(--font-dancing)',  
       },
       
     },
