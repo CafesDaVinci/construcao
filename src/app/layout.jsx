@@ -1,9 +1,8 @@
-import './globals.css'
 import NavBar from './components/NavBar'
 import './globals.css'
-import { Dancing_Script, Montserrat,Bebas_Neue } from 'next/font/google'
+import { Inter, Dancing_Script, Bebas_Neue } from 'next/font/google'
 
-const montserrat = Montserrat({ subsets: ['latin'], variable: '--font-mont' })
+const inter = Inter({ subsets: ['latin'] })
 const dancing_script = Dancing_Script({ subsets: ['latin'], weight: '700', variable: '--font-dancing' })
 const bebas_neue = Bebas_Neue({ subsets: ['latin'], weight: '400', variable: '--font-bebas' })
 
@@ -15,11 +14,11 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <body className={`${montserrat.variable} ${dancing_script.variable} ${bebas_neue.variable} font-bebas min-h-screen bg-primary`}>
-
+    <html lang="pt-br">
       <NavBar />
-      {children}
-
-    </body>
+      <body className={`${inter.className} ${dancing_script.variable} ${bebas_neue.variable} font-bebas min-h-screen bg-primary`}>
+        {children}
+      </body>
+    </html>
   )
 }
