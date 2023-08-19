@@ -7,7 +7,7 @@ import Teste from "./components/teste";
 export default function Home() {
   return (
     <div>
-      <div className="h-screen">
+      <div className="h-screen text-text">
         <div className=" w-full h-full absolute top-0 -z-10 bg-black/20"></div>
         <Image src={cafe} alt="café" className=" h-full absolute top-0 -z-20" />
         <div
