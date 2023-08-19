@@ -1,11 +1,9 @@
 "use client"
 import Image from "next/image";
-import logo from "../../../public/logo.png"
+import logo from "../../../public/logoCafe.png"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Link from "next/link";
 import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
-import { motion } from "framer-motion";
-
 
 
 const CustonLink = ({ title, link, }) => {
@@ -32,8 +30,8 @@ export default function NavBar() {
                     />
                 </div>
                 <Link href="/">
-                    <Image src={logo} width={150} alt="logo cafeteria Davinci"
-                        className="rounded-full hidden md:block mx-20 drop-shadow-drop1"
+                    <Image src={logo} width={120} alt="logo cafeteria Davinci"
+                        className="hidden md:block mx-20 drop-shadow-drop1"
                     />
                 </Link>
                 <div className="flex gap-5 w-44">

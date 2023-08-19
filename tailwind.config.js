@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       colors:{
         primary:"#fffbf2",
+        text:"#160901",
         secondary:"#c7a17a",
       },
       dropShadow: {

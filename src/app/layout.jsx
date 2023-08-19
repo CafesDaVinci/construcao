@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="pt-br">
 
-      <body className={`${dancing_script.variable} ${bebas_neue.variable} font-bebas min-h-screen bg-primary`}>
+      <body className={`${dancing_script.variable} ${bebas_neue.variable} font-bebas min-h-screen bg-primary text-text`}>
         <NavBar />
         {children}
       </body>
