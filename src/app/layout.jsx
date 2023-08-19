@@ -15,8 +15,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="pt-br">
-      <NavBar />
-      <body className={`${inter.className} ${dancing_script.variable} ${bebas_neue.variable} font-bebas min-h-screen bg-primary`}>
+
+      <body className={`${dancing_script.variable} ${bebas_neue.variable} font-bebas min-h-screen bg-primary`}>
+        <NavBar />
         {children}
       </body>
     </html>

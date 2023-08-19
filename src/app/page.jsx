@@ -17,7 +17,7 @@ export default function Home() {
           initial={{ opacity: 0, y:100 }}
           animate={{ opacity: 1, y:0 }}
           transition={{ duration: 0.5, delay:0.5 }}
-          className=" text-4xl text-secondary font-dancing">
+          className=" text-6xl text-secondary font-dancing">
             O Poder do
           </motion.p>
 
@@ -25,7 +25,7 @@ export default function Home() {
             initial={{ opacity: 0, scale: 0.5 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5 }}
-            className="text-primary text-[200px] -mt-5 -mb-20 uppercase font-bold ">
+            className="text-primary text-[200px] -mt-5 -mb-14 uppercase font-bold ">
             Café
           </motion.h2>
 
