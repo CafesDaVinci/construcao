@@ -44,7 +44,7 @@ export default function Paixao() {
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="uppercase text-8xl z-10 font-bebas"
+          className="uppercase text-8xl z-10 font-bebas text-secondary"
         >
           <span className="text-primary drop-shadow-dark1 ">NOSSAS </span>PAIXÕES
         </motion.h2>

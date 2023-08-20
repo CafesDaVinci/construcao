@@ -10,7 +10,7 @@ module.exports = {
       colors:{
         primary:"#fffbf2",
         text:"#160901",
-        secondary:"#c7a17a",
+        secondary:"#f28f3b",
       },
       dropShadow: {
         dark1: '2px 2px 0px #160901 ',
