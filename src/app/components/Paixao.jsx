@@ -7,7 +7,7 @@ export default function Paixao() {
   return (
     <div className="bg-primary flex flex-col justify-center  items-center w-screen">
       <div className="w-screen">
-        <Image src={bgcafe} className="w-screen opacity-10 absolute"/>
+        <Image src={bgcafe} className="w-screen h-[1040px] opacity-10 absolute z-0"/>
       </div>
       <div className="bg-secondary h-32 py-20 w-px mt-10" />
 

@@ -3,7 +3,7 @@ import Image from "next/image";
 import cafe from "../../public/cafebg.jpg"
 import { motion } from "framer-motion"
 import Paixao from "./components/Paixao";
-import Teste from "./components/teste";
+import Produtos from "./components/Produtos";
 export default function Home() {
   return (
     <div>
@@ -39,6 +39,7 @@ export default function Home() {
         </div>
       </div>
       <Paixao />
+      <Produtos/>
     </div>
   )
 }
