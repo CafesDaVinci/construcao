@@ -41,7 +41,7 @@ export default function Home() {
             transition={{ duration: 0.5, delay: 1 }}
             className="text-primary text-xl uppercase font-bebas"
           >
-             <Image src={desde} width={300} alt="logo da Cafeteria da Vinci"/>
+             <Image src={desde} width={300} alt="desde 1930"/>
           </motion.p>
         </div>
       </div>

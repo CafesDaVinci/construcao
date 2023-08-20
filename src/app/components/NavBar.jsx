@@ -19,10 +19,11 @@ const CustonLink = ({ title, link }) => {
 export default function NavBar() {
   return (
     <div>
-      <nav className="absolute top-5 flex justify-center items-center h-36 text-primary z-10 drop-shadow-dark1 font-bold w-screen">
+      <nav className="absolute  flex justify-center items-center text-primary z-10 drop-shadow-dark1 font-bold w-screen">
         <div className=" flex items-center justify-center space-x-5">
           <CustonLink link="/" title="Início" />
           <CustonLink link="/quem-somos" title="Quem Somos" />
+          <CustonLink link="/quem-somos" title="Produtos" />
         </div>
         <Link href="/">
           <Image
