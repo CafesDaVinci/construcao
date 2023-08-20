@@ -69,7 +69,7 @@ export default function Paixao() {
           transition={{ duration: 0.5 }}
         >
           <p className="font-dancing my-4">Assinatura da Empresa</p>
-          <p>CEO & FOUNDER CRAFT COFFEE</p>
+          <p className="tracking-widest">CEO & FOUNDER CRAFT COFFEE</p>
         </motion.div>
       </div>
       <motion.div
