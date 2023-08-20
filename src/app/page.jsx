@@ -1,6 +1,8 @@
 "use client";
 import Image from "next/image";
 import cafe from "../../public/cafebg.jpg";
+import logoCafeNome from "../../public/logoCafeNome.png";
+import desde from "../../public/1930.png";
 import { motion } from "framer-motion";
 import Paixao from "./components/Paixao";
 import Produtos from "./components/Produtos";
@@ -28,9 +30,9 @@ export default function Home() {
             initial={{ opacity: 0, scale: 0.5 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5, delay: 0.3 }}
-            className="text-primary text-[200px] -mt-5 -mb-14 uppercase font-bold tracking-widest font-bebas "
+            className="text-primary text-[200px] uppercase font-bold tracking-widest font-bebas "
           >
-            Café
+            <Image src={logoCafeNome} alt="logo da Cafeteria da Vinci"/>
           </motion.h2>
 
           <motion.p
@@ -39,7 +41,7 @@ export default function Home() {
             transition={{ duration: 0.5, delay: 1 }}
             className="text-primary text-xl uppercase font-bebas"
           >
-            &#42; Desde 1930 &#42;
+             <Image src={desde} width={300} alt="logo da Cafeteria da Vinci"/>
           </motion.p>
         </div>
       </div>

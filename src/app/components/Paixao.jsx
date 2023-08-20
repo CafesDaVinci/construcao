@@ -46,7 +46,7 @@ export default function Paixao() {
           transition={{ duration: 0.5 }}
           className="uppercase text-8xl z-10 font-bebas"
         >
-          <span className="text-primary">NOSSAS </span>PAIXÕES
+          <span className="text-primary drop-shadow-dark1 ">NOSSAS </span>PAIXÕES
         </motion.h2>
       </div>
       <div className="mt-36 mr-[550px]">

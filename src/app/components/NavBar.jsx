@@ -27,9 +27,9 @@ export default function NavBar() {
         <Link href="/">
           <Image
             src={logo}
-            width={120}
+            width={150}
             alt="logo cafeteria Davinci"
-            className="hidden md:block mx-20 drop-shadow-drop1"
+            className="hidden md:block mx-20 mt-5 drop-shadow-drop1"
           />
         </Link>
         <div className="flex justify-center items-center gap-8 ">
