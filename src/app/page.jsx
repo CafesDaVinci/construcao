@@ -9,7 +9,7 @@ export default function Home() {
     <div>
       <div className="h-screen text-text">
         <div className=" w-full h-full absolute top-0 -z-10 bg-black/20"></div>
-        <Image src={cafe} alt="café" className=" h-full absolute top-0 -z-20" />
+        <Image src={cafe} alt="café" className=" h-screen absolute top-0 -z-20" />
         <div
           className="h-full flex flex-col justify-center items-center drop-shadow-dark1"
         >
@@ -17,7 +17,7 @@ export default function Home() {
           initial={{ opacity: 0, y:100 }}
           animate={{ opacity: 1, y:0 }}
           transition={{ duration: 0.5, delay:0.5 }}
-          className=" text-6xl text-secondary font-dancing">
+          className=" text-6xl text-secondary font-bebas">
             O Poder do
           </motion.p>
 
@@ -25,7 +25,7 @@ export default function Home() {
             initial={{ opacity: 0, scale: 0.5 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5 }}
-            className="text-primary text-[200px] -mt-5 -mb-14 uppercase font-bold ">
+            className="text-primary text-[200px] -mt-5 -mb-14 uppercase font-bold tracking-widest font-bebas ">
             Café
           </motion.h2>
 
@@ -33,7 +33,7 @@ export default function Home() {
           initial={{ opacity: 0, y:-100 }}
           animate={{ opacity: 1, y:0 }}
           transition={{ duration: 0.5, delay:0.5 }}
-          className="text-primary text-xl uppercase">
+          className="text-primary text-xl uppercase font-bebas">
             &#42; Desde 1930 &#42;
             </motion.p>
         </div>
