@@ -30,7 +30,7 @@ export default function Paixao() {
       <motion.div
         initial={{ opacity: 0, x: -50 }}
         whileInView={{ opacity: 1, x: 0 }}
-        transition={{ duration: 0.5 }}
+        transition={{ duration: 0.5, }}
         className="w-80 relative flex"
       >
         <Image
@@ -75,7 +75,7 @@ export default function Paixao() {
       <motion.div
         initial={{ opacity: 0, x: 50 }}
         whileInView={{ opacity: 1, x: 0 }}
-        transition={{ duration: 0.5 }}
+        transition={{ duration: 0.5, }}
         className="w-[600px] relative -mt-96 ml-[650px]"
       >
         <Image
