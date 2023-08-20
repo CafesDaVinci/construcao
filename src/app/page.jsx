@@ -14,7 +14,7 @@ export default function Home() {
         <Image
           src={cafe}
           alt="café"
-          className=" h-screen absolute top-0 -z-20"
+          className="w-screen h-screen absolute top-0 -z-20"
         />
         <div className="h-full flex flex-col justify-center items-center drop-shadow-dark1">
           <motion.p

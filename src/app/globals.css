@@ -3,5 +3,8 @@
 @tailwind utilities;
 
 body {
-    font-smoothing: antialiased;
-  }
+  font-smoothing: antialiased;
+}
+html {
+  overflow-x: hidden;
+}

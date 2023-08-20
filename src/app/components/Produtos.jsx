@@ -8,8 +8,8 @@ export default function Produtos() {
   return (
     <div>
       <div className=" mt-[450px] z-20 relative">
-        <Image src={graos} alt="fundo cafeteria " className="absolute -z-10" />
-        <div className="z-20 w-screen flex flex-col py-20 justify-center items-center">
+        <Image src={graos} alt="fundo cafeteria " className="h-80" />
+        <div className=" w-full top-5 flex flex-col justify-center items-center absolute ">
           <motion.p
             initial={{ opacity: 0, y: 100 }}
             whileInView={{ opacity: 1, y: 0 }}
