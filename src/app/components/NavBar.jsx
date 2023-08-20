@@ -36,10 +36,10 @@ export default function NavBar() {
         <div className="flex justify-center items-center gap-8 ">
           <CustonLink link="/" title="Clube do Café" />
           <div className="flex gap-5">
-            <Link href="#">
+            <Link href="#" className="transition-all duration-300 hover:text-secondary">
               <FontAwesomeIcon icon={faInstagram} className="h-7" />
             </Link>
-            <Link href="#">
+            <Link href="#" className="transition-all duration-300 hover:text-secondary">
               <FontAwesomeIcon icon={faFacebook} className="h-7" />
             </Link>
           </div>
