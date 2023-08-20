@@ -7,7 +7,7 @@ import CardCafe from "./CardCafe";
 export default function Produtos() {
   return (
     <div>
-      <div className=" mt-[450px] z-20 relative">
+      <div className=" mt-[450px] z-20 relative bg-primary">
         <Image src={graos} alt="fundo cafeteria " className="h-80" />
         <div className=" w-full top-5 flex flex-col justify-center items-center absolute ">
           <motion.p
