@@ -9,7 +9,7 @@ const CustonLink = ({ title, link }) => {
   return (
     <Link
       href={link}
-      className="flex text-primary text-2xl font-bebas tracking-widest flex-col justify-center items-center hover:text-light transition-all duration-300"
+      className="flex text-primary text-2xl font-bebas tracking-widest flex-col justify-center items-center transition-all duration-300 hover:text-secondary "
     >
       {title}
     </Link>
