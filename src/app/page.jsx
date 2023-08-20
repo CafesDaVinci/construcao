@@ -17,7 +17,7 @@ export default function Home() {
           initial={{ opacity: 0, y:100 }}
           animate={{ opacity: 1, y:0 }}
           transition={{ duration: 0.5, delay:0.5 }}
-          className=" text-6xl text-secondary font-bebas">
+          className=" text-6xl text-secondary font-dancing">
             O Poder do
           </motion.p>
 
