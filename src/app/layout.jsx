@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
       <body className={`${dancing_script.variable} ${bebas_neue.variable} min-h-screen bg-primary text-text`}>
         <NavBar />
         {children}
-       {/* <Footer/>*/} 
+        <Footer />
       </body>
     </html>
   )

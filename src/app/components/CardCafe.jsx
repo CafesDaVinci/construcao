@@ -8,7 +8,7 @@ export default function CardCafe({ foto, titulo, preco }) {
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
-        className=" w-72 h-[454px] mr-8 mb-8 group "
+        className="w-72 h-[454px] md:mr-8 mb-8 group flex flex-col justify-center items-center "
       >
         <Image src={foto} alt={titulo} className="w-72" />
         <div className="flex flex-col items-center justify-center">

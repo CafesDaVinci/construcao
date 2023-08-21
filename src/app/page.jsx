@@ -9,15 +9,15 @@ import Produtos from "./components/Produtos";
 export default function Home() {
   return (
     <div>
-      <div className="h-[400px] md:h-screen text-text">
-        <div className=" w-full md:h-full absolute top-0 -z-10 bg-black/20"></div>
+      <div className="h-[420px] md:h-screen text-text">
+        <div className=" h-[500px] md:h-full absolute top-0 -z-10 bg-black/20"></div>
         <Image
           src={cafe}
           alt="café"
-          className="w-screen h-[50%] md:h-screen absolute top-0 -z-20"
+          className="w-screen h-[500px] md:h-screen absolute top-0 -z-20"
         />
 
-        <div className=" pt-20 md:pt-0 md:h-full flex flex-col justify-center items-center drop-shadow-dark1 ">
+        <div className=" pt-20 md:pt-0 md:h-full flex flex-col justify-center items-center drop-shadow-dark1 md:mt-10">
           <motion.p
             initial={{ opacity: 0, y: 100 }}
             animate={{ opacity: 1, y: 0 }}
@@ -48,7 +48,7 @@ export default function Home() {
         </div>
       </div>
      <Paixao />
-      {/*<Produtos />*/} 
+      <Produtos />
     </div>
   );
 }
