@@ -11,6 +11,7 @@ module.exports = {
         primary:"#FFFBF4",
         text:"#160901",
         secondary:"#f28f3b",
+        bgfooter:"#1e1d19"
       },
       dropShadow: {
         dark1: '2px 2px 0px #160901 ',

@@ -1,3 +1,4 @@
+import Footer from './components/Footer'
 import NavBar from './components/NavBar'
 import './globals.css'
 import { Inter, Dancing_Script, Bebas_Neue } from 'next/font/google'
@@ -19,6 +20,7 @@ export default function RootLayout({ children }) {
       <body className={`${dancing_script.variable} ${bebas_neue.variable} min-h-screen bg-primary text-text`}>
         <NavBar />
         {children}
+        <Footer/>
       </body>
     </html>
   )

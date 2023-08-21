@@ -16,7 +16,8 @@ export default function Home() {
           alt="café"
           className="w-screen h-screen absolute top-0 -z-20"
         />
-        <div className="h-full flex flex-col justify-center items-center drop-shadow-dark1">
+
+        <div className="h-full flex flex-col justify-center items-center drop-shadow-dark1 pt-44">
           <motion.p
             initial={{ opacity: 0, y: 100 }}
             animate={{ opacity: 1, y: 0 }}
