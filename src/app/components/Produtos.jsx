@@ -14,9 +14,9 @@ export default function Produtos() {
             initial={{ opacity: 0, y: 100 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.5 }}
-            className=" text-6xl text-secondary font-bebas"
+            className=" text-6xl text-secondary font-bebas pt-2"
           >
-            Sua
+            Nossa
           </motion.p>
           <motion.h2
             initial={{ opacity: 0, scale: 0.5 }}

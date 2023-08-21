@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons"
 import Link from "next/link";
-import { faMapLocationDot, faShop } from "@fortawesome/free-solid-svg-icons";
+import { faCoffee, faMapLocationDot, faShop } from "@fortawesome/free-solid-svg-icons";
 import Image from "next/image";
 import cafeteria from "../../../public/cafeteria.jpg"
 
@@ -11,8 +11,8 @@ const ano = data.getFullYear()
 export default function Footer() {
     return (
         <div>
-            <div className="flex">
-                <div className="px-16 py-10 w-1/2 space-y-5 bg-secondary">
+            <div className="flex relative">
+                <div className="px-16 py-10 w-1/2 h-96 space-y-5 bg-secondary">
                     <h2 className="uppercase text-4xl font-bebas">História</h2>
                     <p className="text-base w-[80%]">
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem neque eius expedita, aspernatur aliquam nesciunt pariatur! Dolor expedita officiis vitae, nostrum dolore fugit dolores laudantium beatae quae cum impedit animi?
@@ -21,9 +21,18 @@ export default function Footer() {
                         Assinatura da Empresa
                     </p>
                 </div>
+                <div className=" text-primary flex flex-col justify-center items-center  px-5 absolute inset-0">
+                    <div className="flex flex-col justify-center items-center bg-text rounded-full border border-dashed p-5">
+                        <h2 className="text-sm">Desde</h2>
+                        <p className="text-4xl">1930</p>
+                        <FontAwesomeIcon icon={faCoffee} className="h-5 text-secondary" />
+                    </div>
+                </div>
 
-                <div className="w-1/2">
-                    <Image src={cafeteria} alt="foto da cafeteria da vinci"/>
+                <div className="w-1/2 h-96">
+                    <Image src={cafeteria} alt="foto da cafeteria da vinci"
+                        className="h-96"
+                    />
                 </div>
             </div>
             <div className="flex justify-center items-center w-screen p-20 text-base bg-bgfooter text-primary">
