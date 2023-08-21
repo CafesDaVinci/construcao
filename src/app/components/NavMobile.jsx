@@ -3,14 +3,13 @@ import Link from 'next/link'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
     faComments,
-    faUser,
-    faCartShopping,
     faPeopleGroup,
     faLock,
     faHome,
-    faCheese,
+    faCoffee,
 } from '@fortawesome/free-solid-svg-icons'
 import logo from '../../../public/logo.png'
+import chicaraProduto from '../../../public/chicaraProduto.png'
 
 import { useState } from 'react'
 import Image from 'next/image'
@@ -51,70 +50,44 @@ export default function NavMobile() {
                 </button>
                 <Link
                     href="/"
-                    className=" text-yellow1 mt-20 flex cursor-pointer items-center space-x-5 p-2 pl-5 text-sm font-semibold text-vermelho shadow-lg duration-300 ease-in-out hover:text-light"
+                    className=" text-yellow1 mt-20 flex cursor-pointer items-center space-x-5 p-2 pl-5 text-sm font-semibold text-vermelho shadow-lg duration-300 ease-in-out hover:text-secondary"
                     onClick={() => setShowSidebar(!showSidebar)}
                 >
                     <FontAwesomeIcon icon={faHome} className="h-5 text-vermelho" />
                     <p>Início</p>
                 </Link>
                 <Link
-                    href="??"
-                    className=" text-yellow1 flex cursor-pointer items-center space-x-5 p-2 pl-5 text-sm font-semibold text-vermelho shadow-lg duration-300 ease-in-out hover:text-light"
-                    onClick={() => setShowSidebar(!showSidebar)}
-                >
-                    <FontAwesomeIcon icon={faUser} className="h-5 text-vermelho" />
-                    <p>Minha Conta</p>
-                </Link>
-                <Link
-                    href="/fale-conosco"
-                    className=" text-yellow1 flex cursor-pointer items-center space-x-5 p-2 pl-5 text-sm font-semibold text-vermelho shadow-lg duration-300 ease-in-out hover:text-light"
-                    onClick={() => setShowSidebar(!showSidebar)}
-                >
-                    <FontAwesomeIcon icon={faComments} className="h-5 text-vermelho" />
-                    <p>Atendimento</p>
-                </Link>
-                <Link
                     href="quem-somos"
-                    className=" text-yellow1 flex cursor-pointer items-center space-x-5 p-2 pl-5 text-sm font-semibold text-vermelho shadow-lg duration-300 ease-in-out hover:text-light"
-                    onClick={() => setShowSidebar(!showSidebar)}
-                >
-                    <FontAwesomeIcon icon={faCheese} className="h-5 text-vermelho" />
-                    <p>Produtos</p>
-                </Link>
-                <Link
-                    href="/carrinho"
-                    className=" text-yellow1 flex cursor-pointer items-center space-x-5 p-2 pl-5 text-sm font-semibold text-vermelho shadow-lg duration-300 ease-in-out hover:text-light"
-                    onClick={() => setShowSidebar(!showSidebar)}
-                >
-                    <FontAwesomeIcon
-                        icon={faCartShopping}
-                        className="h-5 text-vermelho"
-                    />
-                    <p>Meu Carrinho</p>
-                </Link>
-                <Link
-                    href="quem-somos"
-                    className=" text-yellow1 flex cursor-pointer items-center space-x-5 p-2 pl-5 text-sm font-semibold text-vermelho shadow-lg duration-300 ease-in-out hover:text-light"
+                    className=" text-yellow1 flex cursor-pointer items-center space-x-5 p-2 pl-5 text-sm font-semibold text-vermelho shadow-lg duration-300 ease-in-out hover:text-secondary"
                     onClick={() => setShowSidebar(!showSidebar)}
                 >
                     <FontAwesomeIcon icon={faPeopleGroup} className="h-5 text-vermelho" />
                     <p>Quem somos</p>
                 </Link>
                 <Link
-                    href="politica-de-privacidade"
-                    className=" text-yellow1  flex cursor-pointer items-center space-x-5 p-2 pl-5 text-sm font-semibold text-vermelho shadow-lg duration-300 ease-in-out hover:text-light"
+                    href="/fale-conosco"
+                    className=" text-yellow1 flex cursor-pointer items-center space-x-5 p-2 pl-5 text-sm font-semibold text-vermelho shadow-lg duration-300 ease-in-out hover:text-secondary"
                     onClick={() => setShowSidebar(!showSidebar)}
                 >
-                    <FontAwesomeIcon icon={faLock} className="h-5 text-vermelho" />
-                    <p>Política de privacidade</p>
+                    <Image src={chicaraProduto} className="h-5 w-6 text-vermelho" />
+                    <p>Produto</p>
+                </Link>
+                
+                <Link
+                    href="politica-de-privacidade"
+                    className=" text-yellow1  flex cursor-pointer items-center space-x-5 p-2 pl-5 text-sm font-semibold text-vermelho shadow-lg duration-300 ease-in-out hover:text-secondary"
+                    onClick={() => setShowSidebar(!showSidebar)}
+                >
+                    <FontAwesomeIcon icon={faCoffee} className="h-5 text-vermelho" />
+                    <p>Clube do Café</p>
                 </Link>
                 <Link
                     href="politica-de-troca-devolucao"
-                    className=" text-yellow1  flex cursor-pointer items-center space-x-5 p-2 pl-5 text-sm font-semibold text-vermelho shadow-lg duration-300 ease-in-out hover:text-light"
+                    className=" text-yellow1  flex cursor-pointer items-center space-x-5 p-2 pl-5 text-sm font-semibold text-vermelho shadow-lg duration-300 ease-in-out hover:text-secondary"
                     onClick={() => setShowSidebar(!showSidebar)}
                 >
-                    <FontAwesomeIcon icon={faLock} className="h-5 text-vermelho" />
-                    <p>Política de Troca e Devolução</p>
+                    <FontAwesomeIcon icon={faComments} className="h-5 text-vermelho" />
+                    <p>Contato</p>
                 </Link>
 
                 <div className="flex items-center justify-center p-10">
