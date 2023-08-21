@@ -14,7 +14,7 @@ export default function Home() {
         <Image
           src={cafe}
           alt="café"
-          className="w-screen h-[400px] md:h-screen absolute top-0 -z-20"
+          className="w-screen h-[450px] md:h-screen absolute top-0 -z-20"
         />
 
         <div className=" pt-20 md:pt-0 md:h-full flex flex-col justify-center items-center drop-shadow-dark1 ">
