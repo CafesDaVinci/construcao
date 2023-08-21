@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
     faComments,
     faPeopleGroup,
-    faLock,
     faHome,
     faCoffee,
 } from '@fortawesome/free-solid-svg-icons'
@@ -21,7 +20,7 @@ export default function NavMobile() {
             <div className=' flex justify-around items-center py-1 w-screen'>
                 <div className='flex justify-center items-center'>
                     <Image src={logo} alt="logo da Fazenda Santo Antônio"
-                        className="rounded-full w-16"
+                        className="rounded-full w-24"
                     />
                 </div>
                 <svg
