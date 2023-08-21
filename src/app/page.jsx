@@ -10,8 +10,8 @@ import Produtos from "./components/Produtos";
 export default function Home() {
   return (
     <div>
-      <div className="h-[420px] md:h-screen text-text">
-      <div className="h-full w-full -z-10 absolute top-0 bg-black/20"/>
+      <div className="h-[360px] md:h-screen text-text">
+      <div className="h-[480px] w-full -z-10 absolute top-0 bg-black/20"/>
         <Image
           src={cafe}
           alt="café"
@@ -21,7 +21,7 @@ export default function Home() {
         <Image
           src={graos}
           alt="café"
-          className=" md:hidden w-screen h-[545px] md:h-screen absolute top-0 -z-20"
+          className=" md:hidden w-screen md:h-screen absolute top-0 -z-20"
         />
         <div className=" pt-20 md:pt-0 md:h-full flex flex-col justify-center items-center drop-shadow-dark1 md:mt-10">
           <motion.p

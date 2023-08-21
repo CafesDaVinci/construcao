@@ -10,7 +10,7 @@ export default function Paixao() {
       <div className="w-screen">
         <Image
           src={bgcafe}
-          className="w-screen  md:h-[1040px] opacity-5 absolute -z-10"
+          className="w-screen h-full  md:h-[1040px] opacity-5 absolute -z-10"
         />
       </div>
 
@@ -48,6 +48,12 @@ export default function Paixao() {
         >
           <span className="text-primary mr-2">NOSSAS </span>PAIXÕES
         </motion.h2>
+      </div>
+      <div className="w-screen">
+        <Image
+          src={bgcafe}
+          className="w-screen h-full  md:h-[1040px] opacity-5 absolute -z-10"
+        />
       </div>
       <div className="w-72 md:w-auto md:mt-36 md:mr-[550px]">
         <motion.p

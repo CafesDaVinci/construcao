@@ -61,7 +61,7 @@ export default function Footer() {
                 </div>
             </div>
             <div className=" py-5 text-text flex flex-col items-center justify-center text-center">
-                <p className="text-xs ">
+                <p className="text-xs px-5">
                     Café da Vinci - CNPJ: 0000000000000000000000000 Todos os Direitos Reservados, {ano}
                 </p>
                 <div className="flex">
