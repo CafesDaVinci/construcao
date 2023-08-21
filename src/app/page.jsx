@@ -17,7 +17,7 @@ export default function Home() {
           className="w-screen h-screen absolute top-0 -z-20"
         />
 
-        <div className="h-full flex flex-col justify-center items-center drop-shadow-dark1 pt-44">
+        <div className="h-full flex flex-col justify-center items-center drop-shadow-dark1 ">
           <motion.p
             initial={{ opacity: 0, y: 100 }}
             animate={{ opacity: 1, y: 0 }}
@@ -31,9 +31,10 @@ export default function Home() {
             initial={{ opacity: 0, scale: 0.5 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5, delay: 0.3 }}
-            className="text-primary text-[200px] uppercase font-bold tracking-widest font-bebas "
           >
-            <Image src={logoCafeNome} alt="logo da Cafeteria da Vinci"/>
+            <Image src={logoCafeNome} alt="logo da Cafeteria da Vinci"
+            className="w-96"
+            />
           </motion.h2>
 
           <motion.p
@@ -42,12 +43,12 @@ export default function Home() {
             transition={{ duration: 0.5, delay: 1 }}
             className="text-primary text-xl uppercase font-bebas"
           >
-             <Image src={desde} width={300} alt="desde 1930"/>
+             <Image src={desde} alt="desde 1930" className="w-52 md:w-[300px]"/>
           </motion.p>
         </div>
       </div>
-      <Paixao />
-      <Produtos />
+     `{/*<Paixao />
+      <Produtos />*/} 
     </div>
   );
 }
