@@ -17,12 +17,12 @@ export default function Home() {
           className="w-screen h-screen absolute top-0 -z-20"
         />
 
-        <div className="h-full flex flex-col justify-center items-center drop-shadow-dark1 ">
+        <div className=" pt-44 md:pt-0 md:h-full flex flex-col justify-center items-center drop-shadow-dark1 ">
           <motion.p
             initial={{ opacity: 0, y: 100 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 1 }}
-            className=" text-6xl text-secondary font-dancing"
+            className=" text-4xl md:text-6xl text-secondary font-dancing"
           >
             O Poder do
           </motion.p>
@@ -33,7 +33,7 @@ export default function Home() {
             transition={{ duration: 0.5, delay: 0.3 }}
           >
             <Image src={logoCafeNome} alt="logo da Cafeteria da Vinci"
-            className="w-96"
+            className="w-64 md:w-96"
             />
           </motion.h2>
 
