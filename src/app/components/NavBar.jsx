@@ -20,7 +20,7 @@ export default function NavBar() {
   return (
     <div>
       <nav className="absolute flex justify-center items-center text-primary z-10 drop-shadow-dark1 font-bold w-screen">
-        <div className=" flex items-center justify-center space-x-5">
+        <div className=" flex items-center justify-center space-x-5 w-96">
           <CustonLink link="/" title="Início" />
           <CustonLink link="/quem-somos" title="Quem Somos" />
           <CustonLink link="/quem-somos" title="Produtos" />
@@ -33,8 +33,9 @@ export default function NavBar() {
             className="hidden md:block mx-20 mt-5 drop-shadow-drop1"
           />
         </Link>
-        <div className="flex justify-center items-center gap-8 ">
+        <div className="flex justify-center items-center gap-8 w-96 ">
           <CustonLink link="/" title="Clube do Café" />
+          <CustonLink link="/" title="Contato" />
           <div className="flex gap-5">
             <Link href="#" className="transition-all duration-300 hover:text-secondary">
               <FontAwesomeIcon icon={faInstagram} className="h-7" />
