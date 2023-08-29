@@ -9,3 +9,19 @@ body {
 html {
   overflow-x: hidden;
 }
+/* :: Custom Scrollbar :: */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #160901;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #f28f3b;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #FFFBF4;
+}

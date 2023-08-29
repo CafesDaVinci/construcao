@@ -25,14 +25,13 @@ export default function NavBar() {
         <div className=" flex items-center justify-center space-x-5 w-96">
           <CustonLink link="/" title="Início" />
           <CustonLink link="/quem-somos" title="Quem Somos" />
-          <CustonLink link="/quem-somos" title="Produtos" />
+          <CustonLink link="/produtos" title="Produtos" />
         </div>
         <Link href="/">
           <Image
             src={logo}
-            width={150}
             alt="logo cafeteria Davinci"
-            className="hidden md:block mx-20 mt-5 drop-shadow-drop1"
+            className="hidden md:block mx-20 w-auto h-44 drop-shadow-drop1"
           />
         </Link>
         <div className="flex justify-center items-center gap-8 w-96 ">
