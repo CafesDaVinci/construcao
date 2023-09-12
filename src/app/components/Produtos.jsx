@@ -1,6 +1,5 @@
 import Image from "next/image";
 import graos from "../../../public/graos.jpg";
-import pacote from "../../../public/pacote.jpg";
 import { motion } from "framer-motion";
 import CardCafe from "./CardCafe";
 
@@ -29,15 +28,7 @@ export default function Produtos() {
         </div>
         <div className="w-screen flex justify-center items-center">
           <div className="p-16 flex flex-wrap justify-center items-center md:w-[1170px]">
-            <CardCafe foto={pacote} titulo="Café" preco="90,00" />
-            <CardCafe foto={pacote} titulo="Café" preco="90,00" />
-            <CardCafe foto={pacote} titulo="Café" preco="90,00" />
-            <CardCafe foto={pacote} titulo="Café" preco="90,00" />
-            <CardCafe foto={pacote} titulo="Café" preco="90,00" />
-            <CardCafe foto={pacote} titulo="Café" preco="90,00" />
-            <CardCafe foto={pacote} titulo="Café" preco="90,00" />
-            <CardCafe foto={pacote} titulo="Café" preco="90,00" />
-            <CardCafe foto={pacote} titulo="Café" preco="90,00" />
+            {/*   <CardCafe foto={pacote} titulo="Café" preco="90,00" /> */}
           </div>
         </div>
       </div>
