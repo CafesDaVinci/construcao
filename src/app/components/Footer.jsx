@@ -37,7 +37,7 @@ export default function Footer() {
                     />
                 </div>
             </div>
-            <div className="flex flex-col md:flex-row justify-center items-center w-screen p-20 text-base bg-text text-primary divide-x-2">
+            <div className="flex flex-col md:flex-row justify-center items-center w-screen p-20 text-base bg-text text-primary md:divide-x-2">
                 <div className="flex justify-center items-center space-x-5  py-5 px-10 h-28 w-64">
                     <FontAwesomeIcon icon={faShop} className="h-10 text-secondary" />
                     <div className="flex flex-col">
