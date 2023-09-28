@@ -28,7 +28,7 @@ function DatabaseRead() {
   }, []);
 
   return (
-    <div className="grid grid-cols-4">
+    <div className="grid grid-cols-4 gap-5">
 
       {produto.map((item) => {
         if (Array.isArray(item.imagens) && item.imagens.length > 0) {
